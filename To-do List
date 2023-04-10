@@ -3,6 +3,44 @@
     <head>
         <title>Page Title</title>
         <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <style>
+          h1{
+    color: #1abc9c;
+    text-shadow: .5px .5px 2px;
+}
+#add {
+    width: 65pt;
+    height: 29pt;
+}
+
+input{
+    height : 25pt;
+}
+
+li {
+    background: #1abc5c;
+    color: 2e7c8e;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-shadow: .5px .5px 1.5px;
+    font-size: 18pt;
+    border: 2px solid black;
+    width: auto;
+    margin: 5px;
+    box-sizing: 5px 5px 5px;
+}
+.rem {
+    background: black;
+    color: red;
+    text-shadow: .5px .5px 1.8px;
+    font-size: 14pt;
+    margin-bottom: 5px;
+    border:none;
+    margin-left: 197px;
+    pointer: mouse;
+    
+}
+        </style>
     </head>
     <body>
         <h1>To-do List</h1>
