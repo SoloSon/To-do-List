@@ -47,5 +47,21 @@ li {
         <input type="text" placeholder="New Item" autofocus/>
         <button id="add">Add</button>
         <ol id="myList"></ol>
+        <script>
+           $(function() {
+    $('#add').on("click", function() {
+        var val = $("input").val();
+        if(val !== " ") {
+            var elem = $("<li></li>").text(val);
+            $(elem).append("<button class='rem'>X</button>");
+            $("#myList").append(elem);
+            $("input").val(' ');
+            $(".rem").click(function() {
+                $(this).parent().remove();
+            });
+        };
+    });
+});
+        </script>
     </body>
 </html>
