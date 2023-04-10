@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    </head>
+    <body>
+        <h1>To-do List</h1>
+        <input type="text" placeholder="New Item" autofocus/>
+        <button id="add">Add</button>
+        <ol id="myList"></ol>
+    </body>
+</html>
